@@ -8,4 +8,4 @@
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Ericoalb/projeto_orion.git
-   cd seu-repositorio
+   cd projeto_orion
