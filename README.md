@@ -1,6 +1,6 @@
 # Sobre o Projeto
 
-Repositório criado para servir como uma pequana documentação da sobre a ingestão de MetaDados na plataforma OpenMetada, como tabmém a utilização do Trino como método de consulta. Tudo isso atraves da conteinirização via Docker.
+Documentação da ingestão de metadados na plataforma OpenMetadata e a utilização do Trino como método de consulta, utilizando a conteinerização via Docker.
 
 ## Pré-requisitos
 - Docker
