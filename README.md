@@ -13,7 +13,7 @@ Acesse os procedimentos 1 e 2: https://docs.google.com/document/d/1T5bKzhrKE3-aS
    git clone https://github.com/Ericoalb/projeto_orion.git
    cd projeto_orion
    docker compose -f docker-compose.yml up --detach
-## Entre no bash
+## Entre no bash do Trino
 docker exec -iti trino bash
 ## Navegue até o Diretório
 cd /etc/trino/catalog
