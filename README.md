@@ -24,7 +24,7 @@ docker exec -iti trino bash
 ## Navegue até o Diretório
 cd /etc/trino/catalog
 ## Atualize o Catalog
-printf "connector.name=mysql\nconnection-url=jdbc:mysql://host.docker.internal:3306\nconnection-user=root\nconnectionpassword=12" > mysql.properties
+printf "connector.name=mysql\nconnection-url=jdbc:mysql://host.docker.internal:3306\nconnection-user=root\nconnectionpassword=123" > mysql.properties
 
 ## Verifique se os serviços:
    OpenMetadata: http://localhost:8585
