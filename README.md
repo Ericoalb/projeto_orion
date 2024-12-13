@@ -11,6 +11,7 @@ Acesse os procedimentos 1 e 2: https://docs.google.com/document/d/1T5bKzhrKE3-aS
 
 ## Instale o  MySQL
 sudo apt update
+
 sudo apt isntall mysql-server
 
 ## Executes os Comandos
