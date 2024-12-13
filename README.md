@@ -9,6 +9,10 @@ Repositório criado para servir como uma pequana documentação da sobre a inges
 ## Instale o Docker
 Acesse os procedimentos 1 e 2: https://docs.google.com/document/d/1T5bKzhrKE3-aSW-MeG_RJ7Nr6Jft1Q2KC97_LcpZ9GY/edit?tab=t.0
 
+## Instale o  MySQL
+sudo apt update
+sudo apt isntall mysql-server
+
 ## Executes os Comandos
 1. Clone o repositório:
    ```bash
@@ -21,4 +25,8 @@ docker exec -iti trino bash
 cd /etc/trino/catalog
 ## Atualize o Catalog
 printf "connector.name=mysql\nconnection-url=jdbc:mysql://host.docker.internal:3306\nconnection-user=root\nconnectionpassword=12" > mysql.properties
+
+## Verifique se os serviços:
+   OpenMetadata: http://localhost:8585
+   Airflow: http://localhost:8080
 
