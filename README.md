@@ -1,7 +1,7 @@
 # :pushpin:	Sobre o Projeto
-Projeto de estudo que visa documentar a ingestão de metadados com o uso da plataforma OpenMetadata, a utilização do Trino como método de consulta e a organização do fluxo de trabalho com o Airflow, utilizando containers via Docker.
+Projeto de estudo que visa documentar a ingestão de metadados utilizando a plataforma OpenMetadata, integrando o Trino como método de consulta e o Airflow para a organização do fluxo de trabalho, tudo isso rodando em containers via Docker.
 
-## :white_check_mark: Pré-requisitos
+## :white_check_mark: Pré-requisitose 
 - Docker
 - MySQL
 
